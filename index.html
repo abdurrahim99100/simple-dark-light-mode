@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple dark light mode</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: white;
+            padding: 20px;
+        }
+
+        .toggle-dark-light {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <h3>This is my simple dark and light mode web project</h3>
+    <p>Hello <br>
+        I'm Abdur Rahim, a MERN stack developer</p>
+    <button onclick="myFunction()">Click here to toggle light and dark mode</button>
+
+    <!-- javaScript code -->
+    <script>
+        function myFunction() {
+            let element = document.body;
+            element.classList.toggle("toggle-dark-light")
+        }
+    </script>
+
+</body>
+
+</html>
